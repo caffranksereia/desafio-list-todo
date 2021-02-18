@@ -14,13 +14,8 @@ const routes = [
   {
     path:'/TODO/:id',
     name:"todo",
-    component:() => import ("./components/Listtodo")
+    component:() => import ("../components/List-todo")
 
-  },
-  {
-    path:'Todo/add',
-    name:"add",
-    component:() => import("./components/Adicionar")
   },
   {
     path: '/about',

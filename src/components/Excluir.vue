@@ -1,12 +1,39 @@
 <template>
   <div class= "excluir">
-    
+    <div>
+      <h1> {{ name }}</h1>
+    </div>
+    <b-form-group>
+      <b-list-group>
+        <b-list-group-item v-for="todo in todoDel" :key="todoDel.id" class="todo-item">
+          {{todoDel.tarefaDel}}
+        </b-list-group-item>
+      </b-list-group>
+    </b-form-group>
   </div>
 </template>
 
 <script>
 export default {
-    props:['msg'],
+  name: 'del',
+  data(){
+    return{
+      newTodo:String,
+      id:Number,
+      todoDel:
+      [
+        {
+          'id':1,
+          'tarefaDel':'Comer abobora'
+        },
+        {
+          'id':2,
+          'tarefaDel':'Lavar Banheiro'
+        }
+        
+      ]
+    }
+  }
     methods:{
       
     }

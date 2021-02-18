@@ -5,8 +5,6 @@
       Bem-Vindo a lista TODO!
       <a href="" target="_blank" rel="noopener">TODO documentation</a>.
     </p>
-    
-    
   </div>
 </template>
 

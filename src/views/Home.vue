@@ -2,7 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld/>
-    <Adicionar/>
+    <ListTodo/>
     
     
   </div>
@@ -11,7 +11,7 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue';
-import Adicionar from '../components/Adicionar.vue';
+import ListTodo from '../components/List-todo.vue';
 
 
 
@@ -19,7 +19,7 @@ export default {
   name: 'Home',
   components: {
     HelloWorld,
-    Adicionar,
+    ListTodo
    
   }
 }
