@@ -26,9 +26,6 @@
             <b-list-group>
                 <b-list-group-item v-for="todo in todo" :key="todo.id" class="todo-item">
                     {{ todo.Tarefa }}
-                    
-                   
-
                 </b-list-group-item>
             </b-list-group>
         </b-form-group>
@@ -36,12 +33,12 @@
 </div>
 <div class="butOpt">
    <b-button @click="confirmEdit">Editar</b-button>
-   </div>
-    <div class="butOpt">
-       <b-button @click="confirmDel">Excluir</b-button>
-    </div>
-    <excluir></excluir>
-    <editar></editar>
+</div>
+<div class="butOpt">
+    <b-button @click="confirmDel">Excluir</b-button>
+</div>
+<excluir></excluir>
+<editar></editar>
 </template>
 <script>
 import Editar from './Editar.vue';
