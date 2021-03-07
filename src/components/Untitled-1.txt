@@ -1,0 +1,18 @@
+: a ideia é "simples", você criar uma aplicação com uma única tela... 
+essa tela deve ser uma tela de lista de tarefas, que permita:
+-adicionar, 
+-editar, 
+-excluir 
+modal de aviso? check (concluído)
+: pode carregar os dados 
+a partir de um JSON
+: o objetivo é avaliar o uso de componentes, rotas e 
+abstração de camadas
+
+
+
+*adicionar 
+
+*editar
+
+*excluir
